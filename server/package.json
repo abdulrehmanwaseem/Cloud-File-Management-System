@@ -1,0 +1,46 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "SET NODE_ENV=PRODUCTION & node server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT & nodemon server.js"
+  },
+  "keywords": [
+    "File",
+    "Management",
+    "System"
+  ],
+  "author": "Abdul Rehman",
+  "license": "MIT",
+  "dependencies": {
+    "@simplewebauthn/server": "^10.0.0",
+    "bcryptjs": "^2.4.3",
+    "bullmq": "^5.7.7",
+    "cloudinary": "^1.41.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.2.0",
+    "express-redis-cache": "^1.0.0",
+    "express-status-monitor": "^1.2.3",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13",
+    "uuid": "^9.0.1",
+    "validator": "^13.11.0",
+    "winston": "^3.13.0",
+    "xss-clean": "^0.1.4"
+  }
+}
