@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  color: rgb(56, 189, 235);
+}
+
+.toast-message {
+  width: 34vw;
+}
+
+@media (max-width: 640px) {
+  .toast-message {
+    width: 100vw;
+  }
+}
+
+.customized-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+}
+
+.customized-scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.customized-scrollbar::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
