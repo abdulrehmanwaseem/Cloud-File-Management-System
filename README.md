@@ -1,10 +1,9 @@
 # File Management System
+A comprehensive file management system built using the MERN stack (MongoDB, Express, React, Node.js).
 
 ![Project Image](https://res.cloudinary.com/dgljsrfmk/image/upload/v1727893011/lzqyovecydza15rxymdr.png)
 
 **Note:** This project was developed approximately two months ago but is being pushed to GitHub now.
-
-A comprehensive file management system built using the MERN stack (MongoDB, Express, React, Node.js).
 
 ## Technologies Used
 
