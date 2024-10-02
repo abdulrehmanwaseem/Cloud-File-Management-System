@@ -1,6 +1,6 @@
 # File Management System
 
-![Project Image](https://res.cloudinary.com/dgljsrfmk/image/upload/v1727892932/wwefvw9iw3fewcsgazi6.png)
+![Project Image](https://res.cloudinary.com/dgljsrfmk/image/upload/v1727893011/lzqyovecydza15rxymdr.png)
 
 **Note:** This project was developed approximately two months ago but is being pushed to GitHub now.
 
