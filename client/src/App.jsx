@@ -44,8 +44,8 @@ const App = () => {
     }
   }, [isFetching]);
 
-  if (isLoading) {
-    return <Spinner />;
+  if (isLoading || isFetching) {
+    return;
   }
 
   return (
